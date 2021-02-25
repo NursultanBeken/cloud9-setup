@@ -17,3 +17,5 @@ git config --global user.email $UserEmail
 
 #show public ssh key - add into github account
 cat ~/.ssh/id_rsa.pub
+echo "########"
+git config --list
